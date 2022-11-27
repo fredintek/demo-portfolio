@@ -1,0 +1,10 @@
+export { default as About } from "./about/About";
+export { default as Contact } from "./contact/Contact";
+export { default as Faq } from "./Faq/Faq";
+export { default as FloatingNav } from "./floatingNav/FloatingNav";
+export { default as Footer } from "./footer/Footer";
+export { default as Header } from "./header/Header";
+export { default as NavBar } from "./navbar/Navbar";
+export { default as Portfolio } from "./portfolio/Portfolio";
+export { default as Services } from "./services/Services";
+export { default as Testimonials } from "./testimonials/Testimonials";

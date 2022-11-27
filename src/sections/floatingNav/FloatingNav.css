@@ -1,0 +1,35 @@
+#floating__nav {
+  /* border: 1px solid red; */
+  width: fit-content;
+  position: fixed;
+  bottom: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  backdrop-filter: blur(8px);
+  align-items: center;
+  gap: 1.8rem;
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  #floating__nav {
+    display: flex;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 0.8rem 1.5rem;
+    border-radius: 3rem;
+  }
+
+  .floating__nav-item {
+    display: flex;
+    align-items: center;
+    padding: 0.6rem;
+    border-radius: 50%;
+    font-size: 1.6rem;
+    color: white;
+  }
+
+  .floating__nav-item.active {
+    background: var(--color-primary);
+  }
+}
